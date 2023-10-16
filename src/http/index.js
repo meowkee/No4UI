@@ -1,11 +1,11 @@
 import axios from "axios";
 
 const $host = axios.create({
-    baseURL: "http://localhost:3001",
+    baseURL: "https://no4-kxb56nabo-yans-projects-f6558538.vercel.app/",
 });
 
 const $authHost = axios.create({
-    baseURL: "http://localhost:3001",
+    baseURL: "https://no4-kxb56nabo-yans-projects-f6558538.vercel.app/",
 });
 
 const authInterceptor = config => {
